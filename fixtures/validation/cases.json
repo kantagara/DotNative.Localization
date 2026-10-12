@@ -1,0 +1,352 @@
+[
+  {
+    "name": "plain",
+    "files": {
+      "app_en.arb": "{\"message\": \"Plain\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "empty",
+    "files": {
+      "app_en.arb": "{\"message\": \"\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "infer-alphabetical",
+    "files": {
+      "app_en.arb": "{\"message\": \"{z} {a}\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "metadata-order",
+    "files": {
+      "app_en.arb": "{\"message\": \"{b} {a}\", \"@message\": {\"placeholders\": {\"a\": {\"type\": \"int\"}, \"b\": {\"type\": \"String\"}}}}"
+    },
+    "config": {}
+  },
+  {
+    "name": "infer-plural",
+    "files": {
+      "app_en.arb": "{\"message\": \"{n, plural, one{one} other{other}}\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "infer-select",
+    "files": {
+      "app_en.arb": "{\"message\": \"{g, select, a{A} other{Other}}\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "unused-declared",
+    "files": {
+      "app_en.arb": "{\"message\": \"Ready\", \"@message\": {\"placeholders\": {\"unused\": {\"type\": \"int\"}}}}"
+    },
+    "config": {}
+  },
+  {
+    "name": "omitted-in-translation",
+    "files": {
+      "app_en.arb": "{\"message\": \"{name}\", \"@message\": {\"placeholders\": {\"name\": {\"type\": \"String\"}}}}",
+      "app_sr.arb": "{\"message\": \"Hello\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "new-in-translation",
+    "files": {
+      "app_en.arb": "{\"message\": \"{name}\"}",
+      "app_sr.arb": "{\"message\": \"{name} {extra}\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "locale-meta-type-mismatch",
+    "files": {
+      "app_en.arb": "{\"message\": \"{name}\", \"@message\": {\"placeholders\": {\"name\": {\"type\": \"String\"}}}}",
+      "app_sr.arb": "{\"message\": \"{name}\", \"@message\": {\"placeholders\": {\"name\": {}}}}"
+    },
+    "config": {}
+  },
+  {
+    "name": "translation-only-key",
+    "files": {
+      "app_en.arb": "{\"message\": \"A\"}",
+      "app_sr.arb": "{\"message\":\"B\",\"extra\":\"C\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "orphan-metadata",
+    "files": {
+      "app_en.arb": "{\"message\": \"A\", \"@unknown\": {}}"
+    },
+    "config": {}
+  },
+  {
+    "name": "null-translation",
+    "files": {
+      "app_en.arb": "{\"message\": \"A\"}",
+      "app_sr.arb": "{\"message\":null}"
+    },
+    "config": {}
+  },
+  {
+    "name": "null-template",
+    "files": {
+      "app_en.arb": "{\"message\": null}"
+    },
+    "config": {}
+  },
+  {
+    "name": "duplicate-json",
+    "files": {
+      "app_en.arb": "{\"message\":\"first\",\"message\":\"last\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "duplicate-plural",
+    "files": {
+      "app_en.arb": "{\"message\": \"{n, plural, one{first} one{last} other{other}}\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "merged-exact",
+    "files": {
+      "app_en.arb": "{\"message\": \"{n, plural, =1{first} one{last} other{other}}\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "exact42",
+    "files": {
+      "app_en.arb": "{\"message\": \"{n, plural, =42{answer} other{other}}\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "missing-other",
+    "files": {
+      "app_en.arb": "{\"message\": \"{n, plural, one{one}}\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "plural-double",
+    "files": {
+      "app_en.arb": "{\"message\": \"{n, plural, other{other}}\", \"@message\": {\"placeholders\": {\"n\": {\"type\": \"double\"}}}}"
+    },
+    "config": {}
+  },
+  {
+    "name": "select-int",
+    "files": {
+      "app_en.arb": "{\"message\": \"{g, select, other{other}}\", \"@message\": {\"placeholders\": {\"g\": {\"type\": \"int\"}}}}"
+    },
+    "config": {}
+  },
+  {
+    "name": "unknown-type",
+    "files": {
+      "app_en.arb": "{\"message\": \"{x}\", \"@message\": {\"placeholders\": {\"x\": {\"type\": \"Widget\"}}}}"
+    },
+    "config": {}
+  },
+  {
+    "name": "invalid-key",
+    "files": {
+      "app_en.arb": "{\"_private\": \"A\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "dart-keywords",
+    "files": {
+      "app_en.arb": "{\"class\": \"C\", \"continue\": \"C\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "csharp-keywords",
+    "files": {
+      "app_en.arb": "{\"event\": \"Event\", \"namespace\": \"Namespace\", \"checked\": \"Checked\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "date-inline",
+    "files": {
+      "app_en.arb": "{\"message\": \"{date, date, ::yMd}\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "time-inline",
+    "files": {
+      "app_en.arb": "{\"message\": \"{date, time, ::Hm}\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "date-missing-format",
+    "files": {
+      "app_en.arb": "{\"message\": \"{date}\", \"@message\": {\"placeholders\": {\"date\": {\"type\": \"DateTime\"}}}}"
+    },
+    "config": {}
+  },
+  {
+    "name": "date-custom",
+    "files": {
+      "app_en.arb": "{\"message\": \"{date}\", \"@message\": {\"placeholders\": {\"date\": {\"type\": \"DateTime\", \"format\": \"yyyy 'year'\", \"isCustomDateFormat\": true}}}}"
+    },
+    "config": {}
+  },
+  {
+    "name": "format-on-string",
+    "files": {
+      "app_en.arb": "{\"message\": \"{x}\", \"@message\": {\"placeholders\": {\"x\": {\"type\": \"String\", \"format\": \"nonsense\"}}}}"
+    },
+    "config": {}
+  },
+  {
+    "name": "ignored-positional-options",
+    "files": {
+      "app_en.arb": "{\"message\": \"{x}\", \"@message\": {\"placeholders\": {\"x\": {\"type\": \"num\", \"format\": \"decimalPattern\", \"optionalParameters\": {\"typo\": 2}}}}}"
+    },
+    "config": {}
+  },
+  {
+    "name": "compact-digits-invalid",
+    "files": {
+      "app_en.arb": "{\"message\": \"{x}\", \"@message\": {\"placeholders\": {\"x\": {\"type\": \"num\", \"format\": \"compact\", \"optionalParameters\": {\"decimalDigits\": 2}}}}}"
+    },
+    "config": {}
+  },
+  {
+    "name": "currency-custom",
+    "files": {
+      "app_en.arb": "{\"message\": \"{x}\", \"@message\": {\"placeholders\": {\"x\": {\"type\": \"num\", \"format\": \"currency\", \"optionalParameters\": {\"customPattern\": \"\\u00a40.000\", \"name\": \"USD\"}}}}}"
+    },
+    "config": {}
+  },
+  {
+    "name": "escaping",
+    "files": {
+      "app_en.arb": "{\"message\": \"'It''s {literal}'\"}"
+    },
+    "config": {
+      "use-escaping": true
+    }
+  },
+  {
+    "name": "escaping-broken",
+    "files": {
+      "app_en.arb": "{\"message\": \"'unclosed\"}"
+    },
+    "config": {
+      "use-escaping": true
+    }
+  },
+  {
+    "name": "relaxed",
+    "files": {
+      "app_en.arb": "{\"message\": \"Literal {x} and {known}\", \"@message\": {\"placeholders\": {\"known\": {\"type\": \"String\"}}}}"
+    },
+    "config": {
+      "relax-syntax": true
+    }
+  },
+  {
+    "name": "required-metadata",
+    "files": {
+      "app_en.arb": "{\"message\": \"Plain\"}"
+    },
+    "config": {
+      "required-resource-attributes": true
+    }
+  },
+  {
+    "name": "locale-conflict",
+    "files": {
+      "app_en.arb": "{\"@@locale\": \"sr\", \"message\": \"A\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "missing-base-locale",
+    "files": {
+      "app_en.arb": "{\"message\": \"A\"}",
+      "app_sr_Latn.arb": "{\"message\":\"B\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "broken",
+    "files": {
+      "app_en.arb": "{\"message\": \"Hello {name\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "spaced-exact-plural",
+    "files": {
+      "app_en.arb": "{\"message\": \"{n, plural, = 0{zero} other{other}}\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "select-pipe",
+    "files": {
+      "app_en.arb": "{\"message\": \"{x, select, a|b{pipe} other{other}}\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "select-numeric-prefix",
+    "files": {
+      "app_en.arb": "{\"message\": \"{x, select, 123abc{mixed} other{other}}\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "select-numeric",
+    "files": {
+      "app_en.arb": "{\"message\": \"{x, select, 123{digits} other{other}}\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "select-reserved-plural",
+    "files": {
+      "app_en.arb": "{\"message\": \"{x, select, plural{reserved} other{other}}\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "select-reserved-select",
+    "files": {
+      "app_en.arb": "{\"message\": \"{x, select, select{reserved} other{other}}\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "select-reserved-date",
+    "files": {
+      "app_en.arb": "{\"message\": \"{x, select, date{reserved} other{other}}\"}"
+    },
+    "config": {}
+  },
+  {
+    "name": "select-reserved-time",
+    "files": {
+      "app_en.arb": "{\"message\": \"{x, select, time{reserved} other{other}}\"}"
+    },
+    "config": {}
+  }
+]

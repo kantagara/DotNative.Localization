@@ -1,0 +1,9 @@
+arb-dir: arb
+template-arb-file: app_en.arb
+output-dir: lib/generated
+output-class: AppLocalizations
+use-escaping: true
+untranslated-messages-file: untranslated.json
+preferred-supported-locales:
+  - sr
+  - en

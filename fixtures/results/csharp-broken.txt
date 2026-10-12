@@ -1,0 +1,11 @@
+/Users/keka/Documents/ChatGPT/DotNative.Localization/artifacts/package-consumer/arb/app_en.arb(2,3): error L10N001: /Users/keka/Documents/ChatGPT/DotNative.Localization/artifacts/package-consumer/arb/app_en.arb: [broken] Expected ',' at ICU offset 11. [/Users/keka/Documents/ChatGPT/DotNative.Localization/artifacts/package-consumer/Consumer.csproj]
+/Users/keka/Documents/ChatGPT/DotNative.Localization/artifacts/package-consumer/Program.cs(3,7): error CS0246: The type or namespace name 'Smoke' could not be found (are you missing a using directive or an assembly reference?) [/Users/keka/Documents/ChatGPT/DotNative.Localization/artifacts/package-consumer/Consumer.csproj]
+
+Build FAILED.
+
+/Users/keka/Documents/ChatGPT/DotNative.Localization/artifacts/package-consumer/arb/app_en.arb(2,3): error L10N001: /Users/keka/Documents/ChatGPT/DotNative.Localization/artifacts/package-consumer/arb/app_en.arb: [broken] Expected ',' at ICU offset 11. [/Users/keka/Documents/ChatGPT/DotNative.Localization/artifacts/package-consumer/Consumer.csproj]
+/Users/keka/Documents/ChatGPT/DotNative.Localization/artifacts/package-consumer/Program.cs(3,7): error CS0246: The type or namespace name 'Smoke' could not be found (are you missing a using directive or an assembly reference?) [/Users/keka/Documents/ChatGPT/DotNative.Localization/artifacts/package-consumer/Consumer.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.72

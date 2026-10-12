@@ -1,0 +1,8 @@
+Because l10n.yaml exists, the options defined there will be used instead.
+To use the command line arguments, delete the l10n.yaml file in the Flutter project.
+
+
+[app_en.arb:broken] ICU Syntax Error: Expected "}" but found no tokens.
+    Hello {name
+                ^
+The preferred supported locale, 'sr', cannot be added. Please make sure that there is a corresponding ARB file with translations for the locale, or remove the locale from the preferred supported locale list.

@@ -1,0 +1,13 @@
+{
+  "arb-dir": "../../fixtures/arb",
+  "template-arb-file": "app_en.arb",
+  "output-class": "AppLocalizations",
+  "namespace": "Fixture",
+  "use-escaping": true,
+  "preferred-supported-locales": [
+    "sr",
+    "en"
+  ],
+  "untranslated-messages-file": "untranslated.json",
+  "header": "Generated fixture API"
+}

@@ -1,0 +1,10 @@
+{
+  "broken": "Hello {name",
+  "@broken": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  }
+}

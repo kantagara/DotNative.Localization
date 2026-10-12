@@ -1,0 +1,1 @@
+<Project><ItemGroup><AdditionalFiles Include="$(MSBuildProjectDirectory)/l10n.json" Condition="Exists('$(MSBuildProjectDirectory)/l10n.json')"/></ItemGroup></Project>

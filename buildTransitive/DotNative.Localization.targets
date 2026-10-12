@@ -1,0 +1,6 @@
+<Project>
+<Target Name="DotNativeLocalizationReport" AfterTargets="CoreCompile" Condition="'$(DesignTimeBuild)' != 'true' and Exists('$(MSBuildProjectDirectory)/l10n.json')">
+<ConvertToAbsolutePath Paths="$(IntermediateOutputPath)l10n-inputs.txt"><Output TaskParameter="AbsolutePaths" PropertyName="_DotNativeLocalizationInputs"/></ConvertToAbsolutePath>
+<WriteLinesToFile File="$(_DotNativeLocalizationInputs)" Lines="@(AdditionalFiles->'%(FullPath)')" Overwrite="true" WriteOnlyWhenDifferent="true"/>
+<Exec Command="dotnet &quot;$(MSBuildThisFileDirectory)../tools/net8.0/DotNative.Localization.Tool.dll&quot; --report &quot;$(MSBuildProjectDirectory)/l10n.json&quot; &quot;$(_DotNativeLocalizationInputs)&quot;" />
+</Target></Project>

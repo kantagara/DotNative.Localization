@@ -1,0 +1,9 @@
+bin/
+obj/
+.dart_tool/
+build/
+artifacts/
+
+# Flutter crash logs and temporary validation inputs
+fixtures/flutter/flutter_*.log
+fixtures/flutter/validation-arb/

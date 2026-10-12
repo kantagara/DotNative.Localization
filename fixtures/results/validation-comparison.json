@@ -1,0 +1,333 @@
+[
+  {
+    "name": "plain",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "empty",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "infer-alphabetical",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "metadata-order",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "infer-plural",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "infer-select",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "unused-declared",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "omitted-in-translation",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "new-in-translation",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "locale-meta-type-mismatch",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_sr.arb: [message] Translation changes type of 'name' from String to Object."
+    ]
+  },
+  {
+    "name": "translation-only-key",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "orphan-metadata",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "null-translation",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "null-template",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_en.arb: [message] Template message must be a JSON string."
+    ]
+  },
+  {
+    "name": "duplicate-json",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "duplicate-plural",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "merged-exact",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "exact42",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_en.arb: [message] Flutter plural cases support only =0, =1 and =2. at ICU offset 15."
+    ]
+  },
+  {
+    "name": "missing-other",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_en.arb: [message] plural requires an 'other' branch at ICU offset 21."
+    ]
+  },
+  {
+    "name": "plural-double",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_en.arb: [message] Plural placeholders must be num or int."
+    ]
+  },
+  {
+    "name": "select-int",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_en.arb: [message] Select placeholders must be String."
+    ]
+  },
+  {
+    "name": "unknown-type",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_en.arb: [message] Unknown type 'Widget'."
+    ]
+  },
+  {
+    "name": "invalid-key",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_en.arb: [_private] Invalid Dart resource identifier '_private'. Flutter cannot generate a valid member for this key."
+    ]
+  },
+  {
+    "name": "dart-keywords",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_en.arb: [class] Invalid Dart resource identifier 'class'. Flutter cannot generate a valid member for this key.",
+      "/test/arb/app_en.arb: [continue] Invalid Dart resource identifier 'continue'. Flutter cannot generate a valid member for this key."
+    ]
+  },
+  {
+    "name": "csharp-keywords",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "date-inline",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "time-inline",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "date-missing-format",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_en.arb: [message] DateTime interpolation requires format."
+    ]
+  },
+  {
+    "name": "date-custom",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "format-on-string",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "ignored-positional-options",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "compact-digits-invalid",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_en.arb: [message] Unsupported optional parameter 'decimalDigits' for 'compact'."
+    ]
+  },
+  {
+    "name": "currency-custom",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "escaping",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "escaping-broken",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_en.arb: [message] Unterminated apostrophe escape at ICU offset 9."
+    ]
+  },
+  {
+    "name": "relaxed",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "required-metadata",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_en.arb: [message] Required resource attribute @message was not found."
+    ]
+  },
+  {
+    "name": "locale-conflict",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_en.arb: [@@locale] Locale in @@locale conflicts with filename."
+    ]
+  },
+  {
+    "name": "missing-base-locale",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_sr_Latn.arb: [@@locale] Missing base-language ARB for 'sr'."
+    ]
+  },
+  {
+    "name": "broken",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_en.arb: [message] Expected ',' at ICU offset 11."
+    ]
+  },
+  {
+    "name": "spaced-exact-plural",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "select-pipe",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "select-numeric-prefix",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_en.arb: [message] Invalid select case '123abc' at ICU offset 18."
+    ]
+  },
+  {
+    "name": "select-numeric",
+    "flutter": true,
+    "csharp": true,
+    "diagnostics": []
+  },
+  {
+    "name": "select-reserved-plural",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_en.arb: [message] Invalid select case 'plural' at ICU offset 18."
+    ]
+  },
+  {
+    "name": "select-reserved-select",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_en.arb: [message] Invalid select case 'select' at ICU offset 18."
+    ]
+  },
+  {
+    "name": "select-reserved-date",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_en.arb: [message] Invalid select case 'date' at ICU offset 16."
+    ]
+  },
+  {
+    "name": "select-reserved-time",
+    "flutter": false,
+    "csharp": false,
+    "diagnostics": [
+      "/test/arb/app_en.arb: [message] Invalid select case 'time' at ICU offset 16."
+    ]
+  }
+]

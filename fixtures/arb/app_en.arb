@@ -1,0 +1,228 @@
+{
+  "@@locale": "en",
+  "hello": "Hello",
+  "empty": "",
+  "time_format": "24-hour",
+  "greeting": "Hello {name}!",
+  "@greeting": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Ada",
+        "description": "Guest name"
+      }
+    }
+  },
+  "multi": "{second} then {first}",
+  "@multi": {
+    "placeholders": {
+      "first": {
+        "type": "int"
+      },
+      "second": {
+        "type": "String"
+      }
+    }
+  },
+  "select": "{gender, select, male{He} female{She} other{They}}",
+  "@select": {
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      }
+    }
+  },
+  "items": "{count, plural, =0{empty} one{one} few{few} many{many} other{other}}",
+  "@items": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "nested": "{count, plural, =0{Nobody} one{{gender, select, male{His item} female{Her item} other{Their item}}} other{{gender, select, male{His items} female{Her items} other{Their items}}}}",
+  "@nested": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "gender": {
+        "type": "String"
+      }
+    }
+  },
+  "date": "Date {value}",
+  "@date": {
+    "placeholders": {
+      "value": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "longDate": "Date {value}",
+  "@longDate": {
+    "placeholders": {
+      "value": {
+        "type": "DateTime",
+        "format": "yMMMd"
+      }
+    }
+  },
+  "number": "Number {value}",
+  "@number": {
+    "placeholders": {
+      "value": {
+        "type": "double",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "money": "Money {value}",
+  "@money": {
+    "placeholders": {
+      "value": {
+        "type": "num",
+        "format": "currency",
+        "optionalParameters": {
+          "name": "USD",
+          "symbol": "$",
+          "decimalDigits": 2
+        }
+      }
+    }
+  },
+  "compact": "Count {value}",
+  "@compact": {
+    "placeholders": {
+      "value": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "escaped": "Use '{name}' and 'it''s' safe",
+  "pound": "{count, plural, one{# item} other{# items}}",
+  "@pound": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "fallback": "Template fallback",
+  "fallbackPlural": "{count, plural, one{English one} other{English other}}",
+  "@fallbackPlural": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "event": "Event",
+  "namespace": "Namespace",
+  "checked": "Checked",
+  "parentText": "English parent",
+  "implicit": "{z}:{a}",
+  "unused": "ready",
+  "@unused": {
+    "placeholders": {
+      "unused": {
+        "type": "int"
+      }
+    }
+  },
+  "omit": "Hello {name}",
+  "@omit": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "merged": "{n, plural, =1{first} one{last} =2{two-first} two{two-last} few{few} other{other}}",
+  "duplicateSelect": "{g, select, a{first} a{last} other{other}}",
+  "rawNum": "{n}",
+  "@rawNum": {
+    "placeholders": {
+      "n": {
+        "type": "num"
+      }
+    }
+  },
+  "largeInt": "{n}",
+  "@largeInt": {
+    "placeholders": {
+      "n": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "inlineDate": "{date, date, ::yMMMd}",
+  "inlineTime": "{date, time, ::Hms}",
+  "customDate": "{date}",
+  "@customDate": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yyyy 'year' MM-dd HH:mm:ss.SSSS",
+        "isCustomDateFormat": true
+      }
+    }
+  },
+  "quarter": "{date}",
+  "@quarter": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yQQQQ"
+      }
+    }
+  },
+  "combinedDate": "{date}",
+  "@combinedDate": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd+Hms"
+      }
+    }
+  },
+  "currencyDefault": "{n}",
+  "@currencyDefault": {
+    "placeholders": {
+      "n": {
+        "type": "num",
+        "format": "currency"
+      }
+    }
+  },
+  "shortCurrency": "{n}",
+  "@shortCurrency": {
+    "placeholders": {
+      "n": {
+        "type": "num",
+        "format": "compactCurrency"
+      }
+    }
+  },
+  "longCompact": "{n}",
+  "@longCompact": {
+    "placeholders": {
+      "n": {
+        "type": "num",
+        "format": "compactLong"
+      }
+    }
+  },
+  "formatStringIgnored": "{x}",
+  "@formatStringIgnored": {
+    "placeholders": {
+      "x": {
+        "type": "String",
+        "format": "nonsense"
+      }
+    }
+  }
+}
